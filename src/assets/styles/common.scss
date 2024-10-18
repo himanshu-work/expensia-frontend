@@ -1,0 +1,128 @@
+@import "../../App.scss";
+
+.app-wrapper {
+  // padding: 30px;
+  margin: 40px 90px;
+}
+.home {
+  color: red;
+}
+.card {
+  border-radius: 10px;
+  // border: 1px solid $Secondarycolor;
+  width: 100%;
+  max-width: 200rem;
+  background-color: $Surface;
+  box-shadow: 0 10px 18px rgba($Background, 0.1);
+}
+.add_card {
+  border-radius: 10px;
+  border: 5px solid $Surface;
+  cursor: pointer;
+  color: $OnBackground;
+}
+.add_card:hover {
+  font-size: large;
+  transform: scale(1.05);
+}
+.add_circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: $OnBackground;
+}
+.card-label {
+  color: $Fontcolor;
+}
+.icon-card {
+  width: 15px;
+}
+.addbtn {
+  background-color: $Accentcolor;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.anchor-link {
+  color: $Accentcolor;
+}
+.anchor-link:hover {
+  color: #d4603b;
+}
+.badge {
+  max-width: 100px;
+  min-width: 100px;
+  margin: 2px;
+  border-radius: 5px;
+  text-align: center;
+  width: min-content;
+  padding: 1px 10px;
+}
+
+.green-background {
+  background-color: #d1e6e130;
+  color: #80e980;
+}
+.red-background {
+  background-color: #f2d7de29;
+  color: #f87676;
+}
+.blue-background {
+  background-color: #cee1fe17;
+  color: #7676ff;
+}
+
+.category-accent-color {
+  color: $Primarycolor;
+  background-color: $PrimarycolorLight;
+  padding: 0.2rem;
+  border-radius: 100%;
+}
+.table-title-header {
+  color: $OnBackground;
+}
+
+.search-bar {
+  padding: 10px 15px;
+  background-color: $Surface;
+  color: $OnSurface;
+  border-radius: 10px;
+}
+
+.area-chart {
+  // background-color: white;
+  // color: black;
+  // max-width: 400px;
+}
+.profile-card {
+  border-radius: 20px;
+  padding: 30px;
+  width: 450px;
+  background-color: $Surface;
+  color: $OnSurface;
+}
+.profile-card2 {
+  border-radius: 20px;
+  padding: 30px;
+  height: min-content;
+  background-color: $Surface;
+  color: $OnSurface;
+}
+.AvatarAtNav {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.upload-btn {
+  font-size: 12px;
+  border: 1px solid #bee2ff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #bee2ff;
+}
+.float-edit-btn {
+  // background-color: red;
+  position: absolute;
+  bottom: 0;
+  left: 140px;
+}

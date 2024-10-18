@@ -1,0 +1,23 @@
+@import "../../App.scss";
+
+.amount-input {
+  // border: transparent;
+  background-color: transparent;
+  font-size: 4rem;
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.border-test {
+  border: 1px solid red;
+}
+.bg-suface-color {
+  background-color: $Surface;
+}
+.btn-close-left {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}

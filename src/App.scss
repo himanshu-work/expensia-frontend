@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// $Primarycolor: #121212;
+// $Secondarycolor: #27272a;
+$Lightgrey: #1f1f1f;
+$Grey: #1c1c1c;
+$Grey-2: #868e96;
+$Fontcolor: #a1a1aa;
+$Accentcolor: #2563eb;
+
+$Background: #121212;
+$Surface: #1e1e1e;
+$Primarycolor: #bb86fc;
+$PrimarycolorLight: #f1e7fe1a;
+$Secondarycolor: #03dac6;
+$OnBackground: #d9d9d9;
+$OnSurface: #e3e3e3;
+$OnPrimary: #000000;
+$OnSecondary: #000000;
+
+body {
+  background-color: $Background !important;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  height: 100vh;
+}
+// $Primarycolor: #09090b;
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #495057;
+}
+
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #868e96;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ced4da;
+}

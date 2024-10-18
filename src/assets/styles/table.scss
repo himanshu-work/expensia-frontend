@@ -1,0 +1,42 @@
+@import "../../App.scss";
+
+.table_component {
+  border: 2px solid $Surface;
+  color: $OnSurface;
+  border-radius: 10px;
+}
+.table_header {
+  position: sticky;
+  top: 58px;
+  overflow-y: scroll;
+}
+.table_header {
+  background-color: $Surface;
+}
+.table-title-header {
+  color: $OnBackground;
+}
+// .t-head {
+//   background-color: $Lightgrey;
+// }
+// .tr {
+//   border: 1px solid $Lightgrey;
+// }
+// .action > * {
+//   cursor: pointer;
+// }
+// .action > * > * {
+//   width: 18px;
+// }s
+// /** @type {import('tailwindcss').Config} */
+// export default {
+//   content: [
+//     "./index.html",
+//     "./src/**/*.{js,ts,jsx,tsx}",
+//     "./node_modules/@tremor/**/*.{js,ts,jsx,tsx}",
+//   ],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [],
+// };

@@ -1,0 +1,87 @@
+@import "../../App.scss";
+
+.sign {
+  padding-top: 7vh;
+  height: 100vh;
+}
+.signCard {
+  width: 35vw;
+  height:min-content;
+  margin: auto;
+  background-color: $Surface;
+  // border: 0.5px solid rgb(58, 52, 52);
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  display: grid;
+  // justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+.Expensia {
+  height: 60px;
+  margin: auto;
+}
+.signtitle {
+  font-size: 1.5rem;
+  color: #bbbbbb;
+  text-align: center;
+}
+.inputSign {
+  padding: 8px 12px;
+  border-radius: 3px;
+  color: black;
+  background-color: #e8f0fe;
+}
+.inputWrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.labelSign {
+  position: absolute;
+  color: gray;
+  left: 10px;
+  top: -10px;
+  background-color: $Background;
+  font-size: 0.7rem;
+  padding: 1px 5px;
+}
+.signBtn {
+  background-color: #d4603b;
+  padding: 10px 0;
+  border-radius: 3px;
+}
+.signBtnVariant {
+  font-size: 12px;
+  border: 1px solid #d4603b;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #d4603b;
+}
+.signBtnVariant2 {
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #bee2ff;
+  color: #bee2ff;
+}
+.noAccount {
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+.SignLink {
+  color: gray;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.floatLink {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 5px 15px;
+  background-color: #d4603b;
+  color: white;
+  border-radius: 10px;
+}

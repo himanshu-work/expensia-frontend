@@ -1,0 +1,49 @@
+@import "../../App.scss";
+
+.Sidebar {
+  background-color: $Surface;
+  // border-right: 1px solid $Secondarycolor;
+  width: 64px;
+  height: 100vh;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.side {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.s-item {
+  margin: 8px 0;
+  cursor: pointer;
+  padding: 8px;
+}
+.side-logo {
+  margin: 5px 0;
+  padding: 4px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  min-width: 30px;
+  min-height: 30px;
+}
+.hr-break {
+  margin: 8px 0;
+  width: 100%;
+}
+.s-item-active {
+  background-color: $Primarycolor;
+  color: $OnBackground;
+  border-radius: 10px;
+}
+.tooltip.noArrow {
+  display: none;
+}

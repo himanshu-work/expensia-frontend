@@ -1,0 +1,13 @@
+@import "../../App.scss";
+
+.navbar {
+  width: calc(100% - 64px);
+  height: 60px;
+  // padding: 10px 16px;
+  color: $OnSurface;
+  // border-bottom: 1px solid $Secondarycolor;
+  background-color: $Surface;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
